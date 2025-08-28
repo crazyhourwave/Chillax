@@ -89,7 +89,7 @@
 ::-webkit-scrollbar-thumb {
     border: none !important;
     background-clip: content-box !important;
-    background: var(---scroller-color) !important;
+    background: var(--chillax-scroller-color) !important;
 }
 
 /*transparent call background*/
@@ -844,7 +844,7 @@ html.theme-light .mentioned__5126c:hover {
     border-radius: 30px;
 }
 
-/* appearance theme*/
+/*chillax appearance theme*/
 html.theme-dark {
     --cl-appearance: "Dark";
 }
@@ -854,7 +854,7 @@ html.theme-light {
 }
 
 #app-mount .info__2debe .line__2debe:last-child:after {
-    content: " " var(--cl-appearance) " 🎮";
+    content: "Chillax " var(--cl-appearance) " 🎮";
     display: block;
 }
 
@@ -1069,6 +1069,7 @@ div[class*="wrapper__44b0c"][aria-label*="Online"]
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98:nth-child(3) {
+    background: url("https://cdn.discordapp.com/attachments/934719923735904257/990559275145384007/chillax_sync.jpg?size=4096") center/cover,
     var(--background-primary);
 }
 
@@ -2783,7 +2784,8 @@ html.theme-dark .container__0a12b {
     background: rgba(12, 12, 12, 0.267) !important;
     backdrop-filter: blur(15px) !important;
     border-radius: 5px !important;
-    
+}
+
 /* Fix colors due to `.theme-dark` custom properties being applied in light mode */
 html.theme-light .container__37e49 {
     /* Button color in floating user controls */
