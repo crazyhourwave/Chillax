@@ -2783,17 +2783,7 @@ html.theme-dark .container__0a12b {
     background: rgba(12, 12, 12, 0.267) !important;
     backdrop-filter: blur(15px) !important;
     border-radius: 5px !important;
-}
-
-/* Custom server icons */
-html.theme-dark img[src="https://cdn.discordapp.com/icons/881453188509753384/0d46710d71eba9f9303890383d636489.webp?size=96"] {
-    content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/blacklogo.png");
-}
-
-html.theme-light img[src="https://cdn.discordapp.com/icons/881453188509753384/0d46710d71eba9f9303890383d636489.webp?size=96"] {
-    content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/whitelogo.png");
-}
-
+    
 /* Fix colors due to `.theme-dark` custom properties being applied in light mode */
 html.theme-light .container__37e49 {
     /* Button color in floating user controls */
