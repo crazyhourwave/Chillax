@@ -2713,45 +2713,6 @@ html.theme-dark .container__55c99 {
     padding: 5px !important;
 }
 
-/* Adding support for Vencord summary plugin */
-
-/* summaries container */
-html.theme-dark .topicsPillContainer__0f481 {
-    border-radius: 5px !important;
-    background-color: var(--accentcolorV2);
-    z-index: 5;
-}
-
-/* new unread */
-html.theme-dark .newTopicsBarContainer__0f481 {
-    border-radius: 5px !important;
-    z-index: 5;
-}
-
-html.theme-dark .topicsDropdownBase__0f481::before {
-    content: "";
-    position: absolute;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    inset: 0;
-    border-radius: 15px;
-    z-index: -1;
-}
-
-html.theme-dark .topicsDropdownBase__0f481 {
-    background-color: rgba(15, 12, 12, 0.219);
-    border-radius: 15px;
-    padding: 15px;
-    position: absolute;
-    z-index: 5;
-}
-
-html.theme-dark .topicsScroller__0f481 > * {
-    background-color: rgba(0, 0, 0, 0.6);
-    transition: all 0.2s ease;
-    border-radius: 15px;
-}
-
 /* End of Vencord summary plugin stuff */
 
 /* For dm side bar */
