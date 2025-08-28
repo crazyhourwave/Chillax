@@ -68,6 +68,12 @@
     background-color: transparent !important;
 }
 
+.wordmark__0f481, 
+.wordmarkWindows__0f481, 
+.title__0f481 {
+    display: none !important;
+}
+
 /* Hide borders */
 .sidebarList_c48ade,
 .container_c8ffbb,
