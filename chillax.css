@@ -2752,16 +2752,6 @@ html.theme-dark .topicsScroller__0f481 > * {
     border-radius: 15px;
 }
 
-html.theme-dark .topicsScroller__0f481 > *:hover {
-    background-color: rgb(0, 0, 0.9);
-    transform: translateY(-2px);
-    border-radius: 15px;
-}
-
-html.theme-dark .container__0a12b {
-    border-radius: 15px;
-}
-
 /* End of Vencord summary plugin stuff */
 
 /* For dm side bar */
