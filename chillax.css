@@ -89,7 +89,7 @@
 ::-webkit-scrollbar-thumb {
     border: none !important;
     background-clip: content-box !important;
-    background: var(--chillax-scroller-color) !important;
+    background: var(---scroller-color) !important;
 }
 
 /*transparent call background*/
@@ -844,7 +844,7 @@ html.theme-light .mentioned__5126c:hover {
     border-radius: 30px;
 }
 
-/*chillax appearance theme*/
+/* appearance theme*/
 html.theme-dark {
     --cl-appearance: "Dark";
 }
@@ -854,7 +854,7 @@ html.theme-light {
 }
 
 #app-mount .info__2debe .line__2debe:last-child:after {
-    content: "Chillax " var(--cl-appearance) " 🎮";
+    content: " " var(--cl-appearance) " 🎮";
     display: block;
 }
 
@@ -1069,7 +1069,6 @@ div[class*="wrapper__44b0c"][aria-label*="Online"]
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98:nth-child(3) {
-    background: url("https://cdn.discordapp.com/attachments/934719923735904257/990559275145384007/chillax_sync.jpg?size=4096") center/cover,
     var(--background-primary);
 }
 
